@@ -4,7 +4,7 @@
 
 #define FIRST_TIMER 15
 #define SECOND_TIMER 10
-class BrainRingMode : public GameMode{
+class BrainRingMode : public GameMode {
 private: 
 	int setPushes;
 	int firstTimer;
@@ -18,7 +18,5 @@ public:
 	virtual void Set();
 	virtual void Reset();
 	virtual void SetTimer();
-	void CheckTimeLeft(int timeLeft);
-
-	
+	void CheckTimeLeft(int timeLeft);	
 };

@@ -1,6 +1,5 @@
 #pragma once
-class GameMode
-{
+class GameMode {
 private:
 	int pin;
 
