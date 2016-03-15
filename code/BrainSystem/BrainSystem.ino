@@ -66,6 +66,11 @@ ISR(PCINT1_vect) {
 	}
 
 	if (digitalRead(ADMIN_BUTTON_RESET) == HIGH) {
+<<<<<<< Updated upstream
+=======
+		isPushed = false;
+		Timer1.stop();
+>>>>>>> Stashed changes
 		gameMode->Reset();
 		Timer1.stop();
 		flag = 0;
